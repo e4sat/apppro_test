@@ -6,3 +6,11 @@
 >mkdir apppro_test
 >cd apppro_test
 >notepad test.txt
+>git init
+>git config --grobal user.email "ee31057t@nagaoka-ct.ac.jp"
+>git config --grobal user.name "e4sat"
+>git add test.txt
+>git commit -m "はじめてのプッシュ"
+>git remote add origin https://github.com/e4sat/apppro_test.git
+>git push --set-upstream origin master
+現れた画面でTOKENを入力
